@@ -30,7 +30,7 @@ options:
   ipproto:
     description:
     - Specify IP protocol.
-    choices=[ ip, ipv6 ]
+    choices: [ ip, ipv6 ]
     default: ip
   dest:
     description:
