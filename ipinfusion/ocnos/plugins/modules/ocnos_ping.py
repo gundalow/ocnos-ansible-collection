@@ -21,7 +21,7 @@ description:
 - For targets running Python, use the M(ping) module instead.
 author: "IP Infusion OcNOS Ansible Development Team"
 version_added: '2.10'
-extends_documentation_fragment: ocnos
+extends_documentation_fragment: ipinfusion.ocnos.ocnos
 options:
   count:
     description:

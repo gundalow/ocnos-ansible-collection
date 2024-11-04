@@ -35,7 +35,7 @@ description:
     read from the device. The C(ocnos_command) module includes an
     argument that will cause the module to wait for a specific condition
     before returning or timing out if the condition is not met.
-extends_documentation_fragment: ocnos
+extends_documentation_fragment: ipinfusion.ocnos.ocnos
 options:
   commands:
     description:

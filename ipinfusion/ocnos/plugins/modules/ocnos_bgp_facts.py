@@ -35,7 +35,7 @@ description:
     The BGP neighbor status is collected by OcNOS 'show bgp neighbor'
     command and be prepended to C(ansible_net_bgp_neighbor).
 '''
-EAMPLES = '''
+EXAMPLES = '''
 The following is an example of using the module ocnos_bgp_facts.
 ---
   - name: Test BGP neighbor
