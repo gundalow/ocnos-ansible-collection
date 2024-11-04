@@ -9,4 +9,3 @@ plugin_routing:
   modules:
     config:
       redirect: ipinfusion.ocnos.ocnos_config
-

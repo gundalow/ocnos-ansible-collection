@@ -35,7 +35,7 @@ description:
     base network fact keys with C(ansible_net_<fact>).  The facts
     module will always collect a base set of facts from the device
     and can enable or disable collection of additional facts.
-extends_documentation_fragment: ocnos
+extends_documentation_fragment: ipinfusion.ocnos.ocnos
 notes:
   - Tested against OcNOS 1.3.9
 options:
@@ -108,15 +108,15 @@ RETURN = '''
     description: The total memory on the remote device in MB
     returned: when hardware is configured
     type: int
-  ansible_net_cpu
+  ansible_net_cpu:
     description: All CPU core model name and load
     returned: when hardware is configured
     type: dict
-  ansible_net_vendor
+  ansible_net_vendor:
     description: The vendor name of this device
     returned: when hardware is configured
     type: str
-  ansible_net_product
+  ansible_net_product:
     description: The model name of the OcNOS running device. The vendor name is not included
     returned: when hardware is configured
     type: str
@@ -144,7 +144,7 @@ RETURN = '''
     description: The list of LLDP neighbors from the remote device
     returned: when interfaces is configured
     type: dict
-  ansible_net_lagg
+  ansible_net_lagg:
     description: The list of Link aggregations from the remote device
     returned: when interfaces is configured
     type: list

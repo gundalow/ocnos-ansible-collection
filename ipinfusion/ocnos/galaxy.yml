@@ -26,4 +26,3 @@ dependencies:
   "ansible.netcommon": ">=1.0.0"
 
 repository: "https://github.com/IPInfusion/ocnos-ansible-collection"
-

@@ -35,7 +35,7 @@ description:
     The ISIS neighbor status is collected by OcNOS 'show clns neighbors'
     command and be prepended to C(ansible_net_isis_neighbor).
 '''
-EAMPLES = '''
+EXAMPLES = '''
 The following is an example of using the module ocnos_isis_facts.
 ---
   - name: Test ISIS neighbor
